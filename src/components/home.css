@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.hero {
+    background-image: url('./assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 70px 0;
+    margin-top: 3px;
+}
+
+/* .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+} */
+
+.intro_ncc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+@media (min-width: 400px) {
+    .hero {
+        padding: 100px 0;
+    }
+    
+}
