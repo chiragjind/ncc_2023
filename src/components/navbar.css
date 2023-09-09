@@ -1,0 +1,12 @@
+.ncc_text{
+    color: #000;
+    margin-left: 5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media (min-width:400px) {
+    .ncc_text{
+        font-size:x-large;
+    }
+}
